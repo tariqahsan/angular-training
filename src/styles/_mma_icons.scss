@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'mma-icons';
+  src:  url('../assets/fonts/mma-icons.eot?uzso5b');
+  src:  url('../assets/fonts/mma-icons.eot?uzso5b#iefix') format('embedded-opentype'),
+    url('../assets/fonts/mma-icons.ttf?uzso5b') format('truetype'),
+    url('../assets/fonts/mma-icons.woff?uzso5b') format('woff'),
+    url('../assets/fonts/mma-icons.svg?uzso5b#mma-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.mma-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mma-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mma-address:before {
+  content: "\e900";
+}
+.mma-delivery:before {
+  content: "\e901";
+}
+.mma-express-mail:before {
+  content: "\e902";
+}
+.mma-post-office:before {
+  content: "\e903";
+}
